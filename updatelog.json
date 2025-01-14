@@ -2,8 +2,8 @@
   "name": "Grain_Kitty-Web",
   "home": "https://GrainKitty.top",
   "github": "https://github.com/Grain-Kitty/Web-For-building",
-  "version": "3.1.1",
-  "updatatime" : "2025-1-14",
+  "version": "3.1.2",
+  "updatatime": "2025-1-15",
   "new": [
     "25.1.14--滚动图片换了获取方式，以便添加图片（原先的要重build整个项目）",
     "25.1.10--添加了新内容，重新写了布局，关闭了壁纸功能",
@@ -13,6 +13,7 @@
     "24.12.29--本网站运行"
   ],
   "fix": [
+    "25.1.15--修复了控制台的版本显示不正确的问题",
     "25.1.3--修复了live2d右侧关闭状态下图标不正确的小问题",
     "25.1.2--修复了一些小问题",
     "25.1.2--修复了Live2D 模型无法加载的问题",

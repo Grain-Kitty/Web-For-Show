@@ -11,6 +11,7 @@ fetch('updatelog.json')
   .then(response => response.json())
   .then(data => {
     // 输出特定信息到控制台
+    console.log(data);
     console.log('Name:', data.name);
     console.log('Home:', data.home);
     console.log('GitHub:', data.github);
