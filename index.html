@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Access-Control-Allow-Origin" content="*" />
+    <!-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/images/index.png" />
+    <link rel="apple-touch-icon" href="/images/tx.jpg" />
+    <link rel="bookmark" href="/images/tx.jpg" />
+    <link rel="apple-touch-icon-precomposed" sizes="200x200" href="/images/tx.jpg" />
+    <meta name="description" content="Grain_Kittyの小网站" />
+    <meta name="keywords" content="Grain_Kitty_Blog" />
+    <meta name="author" content="Grain_Kitty" />
+    <meta name="theme-color" content="#424242" />
+    <title>🌱Grain_Kitty🍊燈`cheney</title>
+    <!-- fun -->
+    <script src="/fun/fun.js"></script>
+    <!-- live2d -->
+    <!-- 
+    pixi.js: 下面依赖的依赖库
+    项目的地址：https://github.com/pixijs/pixijs
+    pixi-live2d-display：基于PixiJS 的 Live2D 插件
+    项目的地址：https://github.com/guansss/pixi-live2d-display?tab=readme-ov-file#via-cdn
+    live2dcubismcore：live2D提供的核心SDK，针对4版本以上模型处理
+    项目的地址：https://www.live2d.com/sdk/download/web/
+    live2d.min：老版本live2D的封装，处理2版本的模型处理 
+    项目的地址：https://github.com/dylanNew/live2d
+    -->
+    <!-- 
+    To make it clear, here's how you would use these files:
+    Use cubism2.js+live2d.min.js to support Cubism 2.1 models
+    Use cubism4.js+live2dcubismcore.min.js to support Cubism 3 and Cubism 4 models
+    Use index.js+live2d.min.js+live2dcubismcore.min.js to support all versions of models 
+    -->
+    <!-- Copyrighted cubism SDK -->
+    <script src="https://cubism.live2d.com/sdk-web/cubismcore/live2dcubismcore.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/gh/dylanNew/live2d/webgl/Live2D/lib/live2d.min.js"></script> -->
+    <!-- Load Pixi (dependency for cubism 2/4 integrated loader) -->
+    <script src="https://cdn.jsdelivr.net/npm/pixi.js@5.3.6/dist/pixi.min.js"></script>
+
+    <!-- Load cubism 2/4 integrated loader -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/pixi-live2d-display/dist/index.min.js"></    script> -->
+
+    <!-- if only Cubism 2.1 -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/pixi-live2d-display/dist/cubism2.min.js"></script> -->
+
+    <!-- if only Cubism 4 -->
+    <script src="https://cdn.jsdelivr.net/npm/pixi-live2d-display/dist/cubism4.min.js"></script>
+
+
+    <!-- load live2d -->
+    <script src="/Pio/static/load.js"></script>
+    <link rel="stylesheet" href="/Pio/static/pio.css">
+    <script src="/Pio/static/pio.js"></script>
+    <script src="/Pio/static/pio_sdk4.js"></script>
+    <!-- IE Out -->
+    <script>
+      if (/*@cc_on!@*/ false || (!!window.MSInputMethodContext && !!document.documentMode))
+        window.location.href =
+          'https://support.dmeng.net/upgrade-your-browser.html?referrer=' +
+          encodeURIComponent(window.location.href);
+    </script>
+    <script type="module" crossorigin src="/assets/index-fa540bed.js"></script>
+    <link rel="stylesheet" href="/assets/index-6f553ec2.css">
+  <link rel="manifest" href="/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/registerSW.js"></script></head>
+
+  <body>
+    <!-- 主体内容 -->
+    <div id="app"></div>
+    <!-- noscript -->
+    <noscript>
+      <div style="text-align: center">请开启 JavaScript</div>
+    </noscript>
+    
+  </body>
+</html>
