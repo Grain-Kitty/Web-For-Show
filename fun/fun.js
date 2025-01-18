@@ -1,11 +1,3 @@
-document.addEventListener("DOMContentLoaded", function () {
-  var inputFields = document.querySelectorAll('input[type="text"], input[type="password"]');
-  inputFields.forEach(function (input) {
-    input.setAttribute("autocomplete", "off");
-  });
-});
-//屏蔽输入框的自动填充功能
-
 // 加载 updatelog.json 文件
 fetch('updatelog.json')
   .then(response => response.json())
