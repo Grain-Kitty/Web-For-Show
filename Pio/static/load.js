@@ -26,6 +26,7 @@ function load() {
         { selector: ".home-social a:last-child", text: "Blog Tooltip" },
         { selector: ".post-item a", type: "read" },
         { selector: ".post-content a, .page-content a", type: "link" },
+        { selector: ".most-viewed-panel .most-viewed-item, .live-up-list .live-detail, .card .user-name, .user .name, .post-content .content-full a, .tag-list .content, .title, h2 a[title]", type: "link" }
       ],
     },
     model: [
