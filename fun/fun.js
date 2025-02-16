@@ -1,13 +1,16 @@
-// ==UserScript==
-// @name         Grain_Kitty-Fun
-// @namespace    https://GrainKitty.top
-// @version      2025-02-12
-// @description  try to take over the world!
-// @author       Grain_Kitty
-// @match        *://*/*
-// @icon         https://grainkitty.top/images/index.png
-// @grant        none
-// ==/UserScript==
+// 加载 updatelog.json 文件
+fetch('updatelog.json')
+  .then(response => response.json())
+  .then(data => {
+    // 输出特定信息到控制台
+    console.log(data);
+    console.log('Name:', data.name);
+    console.log('Home:', data.home);
+    console.log('GitHub:', data.github);
+    console.log('Version:', data.version);
+    console.log('Update Time:', data.updatatime);
+  })
+  .catch(error => console.error('Error loading JSON:', error));
 
 let styletu = `
 font-size:20px;
@@ -123,8 +126,4 @@ const args = [
 ];
 
 console.log(...args);
-console.log('Name: Grain_Kitty-Fun');
-console.log('Home: https://GrainKitty.top');
-console.log('GitHub: https://github.com/Grain-Kitty');
-console.log('Version: v3.0');
-console.log('Update Time: 2025-2-12');
+
