@@ -1,10 +1,12 @@
 {
   "name": "Grain_Kitty-Web",
   "home": "https://GrainKitty.top",
-  "github": "https://github.com/Grain-Kitty/Web-For-building",
-  "version": "3.3.3",
-  "updatatime": "2025-1-28",
+  "github": "https://github.com/Grain-Kitty/Web-StartPage",
+  "author": "Grain_Kitty",
+  "version": "4.0.0",
+  "updatatime": "2025-5-5",
   "new": [
+    "25.5.5--网页全部重构改为开始页",
     "25.1.20--重构了精选图片，定宽不定高",
     "25.1.19--增加了搜索功能，更改一点布局",
     "25.1.14--滚动图片换了获取方式，以便添加图片（原先的要重build整个项目）",
