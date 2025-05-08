@@ -57,7 +57,7 @@ function onModelLoad(model) {
   const motionManager = model.internalModel.motionManager;
 
   playAction({
-    text: "欢迎来到🌱Grain_Kitty🍊燈`cheney的个人博客~",
+    text: "欢迎来到🌱Grain_Kitty🍊燈`cheney的网站~",
     motion: "Idle",
   });
   let touchList = [

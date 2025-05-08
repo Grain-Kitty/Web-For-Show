@@ -1,12 +1,12 @@
 {
   "name": "Grain_Kitty-Web",
   "home": "https://GrainKitty.top",
-  "github": "https://github.com/Grain-Kitty/Web-StartPage",
+  "github": "https://github.com/Grain-Kitty/Web-For-building",
   "author": "Grain_Kitty",
-  "version": "4.0.0",
-  "updatatime": "2025-5-5",
+  "version": "4.1.0",
+  "updatatime": "2025-5-7",
   "new": [
-    "25.5.5--网页全部重构改为开始页",
+    "25.5.5--网页重构",
     "25.1.20--重构了精选图片，定宽不定高",
     "25.1.19--增加了搜索功能，更改一点布局",
     "25.1.14--滚动图片换了获取方式，以便添加图片（原先的要重build整个项目）",
@@ -17,6 +17,7 @@
     "24.12.29--本网站运行"
   ],
   "fix": [
+    "25.5.7--fix",
     "25.2.16--修复了router，导致强制清空缓存刷新页面的404错误",
     "25.1.15--修复了控制台的版本显示不正确的问题",
     "25.1.3--修复了live2d右侧关闭状态下图标不正确的小问题",
