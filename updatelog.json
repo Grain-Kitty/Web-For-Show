@@ -3,9 +3,10 @@
   "home": "https://GrainKitty.top",
   "github": "https://github.com/Grain-Kitty/Web-For-building",
   "author": "Grain_Kitty",
-  "version": "4.1.0",
-  "updatatime": "2025-5-7",
+  "version": "4.2.0",
+  "updatatime": "2025-7-5",
   "new": [
+    "25.7.5--添加网盘的链接",
     "25.5.5--网页重构",
     "25.1.20--重构了精选图片，定宽不定高",
     "25.1.19--增加了搜索功能，更改一点布局",
